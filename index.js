@@ -4,7 +4,7 @@ const client = new Discord.Client({
     intents: ["GUILDS", "GUILD_MEMBERS", "GUILD_MESSAGES", "GUILD_INTEGRATIONS"] 
 })
 
-client.login("OTk1NjYyODQyNDI0NDc5ODA0.GesE4I.YC4M6uBmz4s44HYPZNaJ7bKQ3p4ynx5XFkFbZA");
+client.login(proces.env.token);
 
 client.on("ready", () => {
     console.log("ONLINE");
