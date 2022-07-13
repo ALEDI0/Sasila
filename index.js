@@ -5,7 +5,7 @@ const client = new Discord.Client({
 })
 
 
-client.login(proces.env.token);
+client.login(process.env.token);
 
 
 client.on("ready", () => {
