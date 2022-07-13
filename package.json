@@ -1,0 +1,22 @@
+{
+  "name": "sasila",
+  "version": "1.0.0",
+  "description": "The sasila bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ALEDI0/Sasila.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ALEDI0/Sasila/issues"
+  },
+  "homepage": "https://github.com/ALEDI0/Sasila#readme",
+  "dependencies": {
+    "discord.js": "^13.8.1"
+  }
+}
